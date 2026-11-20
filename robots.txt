@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rkumardiary-cmd.github.io/rk-publications/sitemap.xml
