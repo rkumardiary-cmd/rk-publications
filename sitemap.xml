@@ -1,6 +1,29 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://rkumardiary-cmd.github.io/rk-publications/</loc>
   </url>
+
+  <url>
+    <loc>https://rkumardiary-cmd.github.io/rk-publications/chunav-jeetne-ka-mahamantra.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rkumardiary-cmd.github.io/rk-publications/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rkumardiary-cmd.github.io/rk-publications/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rkumardiary-cmd.github.io/rk-publications/privacy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rkumardiary-cmd.github.io/rk-publications/terms.html</loc>
+  </url>
+
 </urlset>
