@@ -1,69 +1,300 @@
-
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="आर. के. पब्लिकेशन्स एक स्वतंत्र डिजिटल प्रकाशन पहल है। यहाँ विभिन्न विषयों पर उपयोगी पुस्तकें और ज्ञानवर्धक सामग्री उपलब्ध कराई जाती है।">
-<title>हमारे बारे में | आर. के. पब्लिकेशन्स</title>
-<link rel="canonical" href="https://rkumardiary-cmd.github.io/rk-publications/about.html">
-<style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f5f6f3;color:#333;line-height:1.8}
-header,footer{background:#173d32;color:white;text-align:center;padding:22px}
-main{max-width:900px;margin:30px auto;padding:25px}
-.card{background:white;padding:28px;margin:20px 0;border-radius:12px;box-shadow:0 3px 15px #0000000d}
-h1,h2{color:#173d32}
-h1{text-align:center}
-a{color:#176b4a}
-.btn{display:inline-block;background:#ed8b32;color:white;padding:10px 20px;border-radius:6px;text-decoration:none}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="आर. के. पब्लिकेशन्स का परिचय, उद्देश्य और प्रकाशन संबंधी जानकारी। हमारी प्रमुख पुस्तक चुनाव जीतने का महामंत्र उत्तर प्रदेश पंचायत चुनाव की तैयारी और रणनीति पर केंद्रित है।">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="आर. के. पब्लिकेशन्स">
+  <meta name="theme-color" content="#173d32">
+
+  <link rel="canonical" href="https://rkumardiary-cmd.github.io/rk-publications/about.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="आर. के. पब्लिकेशन्स">
+  <meta property="og:locale" content="hi_IN">
+  <meta property="og:title" content="हमारे बारे में | आर. के. पब्लिकेशन्स">
+  <meta property="og:description" content="आर. के. पब्लिकेशन्स का परिचय, उद्देश्य और प्रमुख पुस्तक के बारे में जानें।">
+  <meta property="og:url" content="https://rkumardiary-cmd.github.io/rk-publications/about.html">
+
+  <title>हमारे बारे में | आर. के. पब्लिकेशन्स</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6f3;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    a {
+      color: #176b4a;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #ed8b32;
+      outline-offset: 4px;
+    }
+
+    header {
+      background: #173d32;
+      color: #fff;
+      text-align: center;
+      padding: 22px 16px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      color: #e8efeb;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px 22px;
+      padding: 12px 16px;
+      background: #12352c;
+    }
+
+    .top-nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .top-nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      width: min(900px, 100%);
+      margin: 0 auto;
+      padding: 28px 20px 36px;
+    }
+
+    .page-intro {
+      text-align: center;
+      margin: 0 0 26px;
+    }
+
+    .page-intro h2 {
+      margin: 0 0 8px;
+      color: #173d32;
+      font-size: 1.8rem;
+    }
+
+    .page-intro p {
+      margin: 0;
+      color: #666;
+    }
+
+    .card {
+      background: #fff;
+      padding: 26px;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 3px 15px #0000000d;
+    }
+
+    .card h2 {
+      margin: 0 0 12px;
+      color: #173d32;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      margin: 0 0 12px;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .book-title {
+      font-weight: bold;
+      color: #173d32;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 8px;
+      background: #ed8b32;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #d97822;
+    }
+
+    .support-note {
+      background: #eef3ef;
+      border-left: 4px solid #173d32;
+      padding: 16px 18px;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: #173d32;
+      color: #fff;
+      text-align: center;
+      padding: 22px 16px;
+    }
+
+    footer p {
+      margin: 0 0 10px;
+    }
+
+    footer a {
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 18px 14px;
+      }
+
+      header h1 {
+        font-size: 1.25rem;
+      }
+
+      .top-nav {
+        gap: 8px 16px;
+      }
+
+      main {
+        padding: 22px 14px 28px;
+      }
+
+      .page-intro h2 {
+        font-size: 1.5rem;
+      }
+
+      .card {
+        padding: 20px;
+        margin: 16px 0;
+      }
+
+      .card h2 {
+        font-size: 1.15rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-<h2>आर. के. पब्लिकेशन्स</h2>
-<p>पुस्तकों और ज्ञान का डिजिटल मंच</p>
-</header>
+  <header>
+    <h1>आर. के. पब्लिकेशन्स</h1>
+    <p>पुस्तकों और ज्ञान का डिजिटल मंच</p>
+  </header>
 
-<main>
-<h1>हमारे बारे में</h1>
+  <nav class="top-nav" aria-label="मुख्य नेविगेशन">
+    <a href="index.html">होम</a>
+    <a href="index.html#book">हमारी पुस्तक</a>
+    <a href="contact.html">संपर्क</a>
+  </nav>
 
-<div class="card">
-<h2>हमारा परिचय</h2>
-<p>आर. के. पब्लिकेशन्स एक स्वतंत्र प्रकाशन पहल है। हमारा उद्देश्य विभिन्न विषयों पर उपयोगी पुस्तकें, ज्ञानवर्धक सामग्री और पाठकों के लिए महत्वपूर्ण जानकारी डिजिटल माध्यम से उपलब्ध कराना है।</p>
-</div>
+  <main>
+    <section class="page-intro">
+      <h2>हमारे बारे में</h2>
+      <p>आर. के. पब्लिकेशन्स और हमारी प्रकाशन पहल का परिचय</p>
+    </section>
 
-<div class="card">
-<h2>हमारा उद्देश्य</h2>
-<p>हमारा प्रयास है कि पाठकों तक उपयोगी, व्यवस्थित और जानकारीपूर्ण पुस्तकें सरलता से पहुँचें। हम डिजिटल प्रकाशन के माध्यम से पुस्तकों को अधिक पाठकों तक उपलब्ध कराने की दिशा में कार्य कर रहे हैं।</p>
-</div>
+    <section class="card">
+      <h2>हमारा परिचय</h2>
+      <p>
+        आर. के. पब्लिकेशन्स एक स्वतंत्र प्रकाशन पहल है। हमारा उद्देश्य
+        विभिन्न विषयों पर उपयोगी पुस्तकें, ज्ञानवर्धक सामग्री और पाठकों के
+        लिए महत्वपूर्ण जानकारी डिजिटल माध्यम से उपलब्ध कराना है।
+      </p>
+      <p>
+        यह वेबसाइट हमारे प्रकाशनों की जानकारी, पुस्तकों के विवरण और
+        पाठकों के लिए आवश्यक सहायता-संबंधी जानकारी उपलब्ध कराने का
+        डिजिटल माध्यम है।
+      </p>
+    </section>
 
-<div class="card">
-<h2>हमारे प्रकाशन</h2>
-<p>आर. के. पब्लिकेशन्स के अंतर्गत समय-समय पर अलग-अलग विषयों पर पुस्तकें प्रकाशित की जाएंगी। प्रत्येक पुस्तक का विवरण, लेखक, विषय और खरीद संबंधी जानकारी इस वेबसाइट पर उपलब्ध कराई जाएगी।</p>
-</div>
+    <section class="card">
+      <h2>हमारा उद्देश्य</h2>
+      <p>
+        हमारा प्रयास है कि पाठकों तक उपयोगी, व्यवस्थित और जानकारीपूर्ण
+        पुस्तकें सरलता से पहुँचें। हम डिजिटल प्रकाशन के माध्यम से पुस्तकों
+        को अधिक पाठकों तक उपलब्ध कराने की दिशा में कार्य कर रहे हैं।
+      </p>
+      <p>
+        पुस्तकों के विषय और विवरण को स्पष्ट रूप से प्रस्तुत करना तथा
+        पाठकों को पुस्तक से संबंधित जानकारी आसानी से उपलब्ध कराना
+        हमारी प्राथमिकताओं में शामिल है।
+      </p>
+    </section>
 
-<div class="card">
-<h2>हमारी प्रमुख पुस्तक</h2>
-<p><strong>चुनाव जीतने का महामंत्र</strong></p>
-<p>लेखक: आर. के. राजू</p>
-<p>यह पुस्तक पंचायत चुनाव की तैयारी, जनसंपर्क, नेतृत्व और चुनावी रणनीति जैसे विषयों पर केंद्रित है।</p>
-<a class="btn" href="index.html#book">पुस्तक के बारे में जानें</a>
-</div>
+    <section class="card">
+      <h2>हमारे प्रकाशन</h2>
+      <p>
+        आर. के. पब्लिकेशन्स के अंतर्गत अलग-अलग विषयों पर पुस्तकें
+        प्रकाशित की जाएँगी। प्रत्येक पुस्तक का विवरण, लेखक, विषय और
+        खरीद संबंधी जानकारी इस वेबसाइट पर उपलब्ध कराई जाएगी।
+      </p>
+      <p>
+        नए प्रकाशनों की जानकारी उपलब्ध होने पर वेबसाइट पर जोड़ी जाएगी।
+      </p>
+    </section>
 
-<div class="card">
-<h2>हमसे संपर्क करें</h2>
-<p>पुस्तकों, प्रकाशन और अन्य जानकारी के लिए WhatsApp पर संपर्क कर सकते हैं।</p>
-<p><strong>WhatsApp: 7392009310</strong></p>
-<a class="btn" href="https://wa.me/917392009310" target="_blank" rel="noopener">WhatsApp पर संपर्क करें</a>
-</div>
-</main>
+    <section class="card">
+      <h2>हमारी प्रमुख पुस्तक</h2>
+      <p class="book-title">चुनाव जीतने का महामंत्र</p>
+      <p><strong>लेखक:</strong> आर. के. राजू</p>
+      <p>
+        यह पुस्तक उत्तर प्रदेश पंचायत चुनाव की तैयारी, जनसंपर्क,
+        नेतृत्व और चुनावी रणनीति जैसे विषयों पर केंद्रित है।
+      </p>
+      <p>
+        पुस्तक का विवरण और खरीद संबंधी जानकारी हमारी वेबसाइट के
+        पुस्तक पेज पर उपलब्ध है।
+      </p>
+      <a class="btn" href="index.html#book">पुस्तक के बारे में जानें</a>
+    </section>
 
-<footer>
-<p>© 2026 आर. के. पब्लिकेशन्स। सर्वाधिकार सुरक्षित।</p>
-<a href="index.html" style="color:white">मुख्य वेबसाइट पर वापस जाएँ</a>
-</footer>
+    <section class="card">
+      <h2>पाठकों के लिए सहायता</h2>
+      <p>
+        पुस्तक, प्रकाशन या वेबसाइट से संबंधित जानकारी के लिए पाठक
+        संपर्क पेज देख सकते हैं।
+      </p>
+      <p class="support-note">
+        पुस्तक खरीदने, भुगतान और अन्य सहायता से संबंधित जानकारी के लिए
+        कृपया संपर्क पेज का उपयोग करें।
+      </p>
+      <a class="btn" href="contact.html">संपर्क पेज देखें</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 आर. के. पब्लिकेशन्स। सर्वाधिकार सुरक्षित।</p>
+    <a href="index.html">मुख्य वेबसाइट पर वापस जाएँ</a>
+  </footer>
 
 </body>
 </html>
