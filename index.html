@@ -1,897 +1,400 @@
 <!DOCTYPE html>
-<html lang="hi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>आर. के. पब्लिकेशन्स | हिंदी पुस्तकें</title>
-
-  <meta name="description" content="आर. के. पब्लिकेशन्स की आधिकारिक वेबसाइट। चुनाव जीतने का महामंत्र — उत्तर प्रदेश पंचायत चुनाव की तैयारी, जनसंपर्क और चुनावी रणनीति पर हिंदी मार्गदर्शिका। लेखक आर. के. राजू।">
-
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="आर. के. पब्लिकेशन्स">
-  <meta name="theme-color" content="#173d32">
-
-  <meta name="google-site-verification" content="yFG7gSHWlgybDPVKo_8nunFpA3qrwTxAVKvTj5OB6hg">
-
-  <link rel="canonical" href="https://rkumardiary-cmd.github.io/rk-publications/">
-
-  <!-- Open Graph: Facebook, WhatsApp और अन्य सोशल मीडिया -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="RK Publications">
-  <meta property="og:locale" content="hi_IN">
-  <meta property="og:title" content="आर. के. पब्लिकेशन्स | चुनाव जीतने का महामंत्र">
-  <meta property="og:description" content="उत्तर प्रदेश पंचायत चुनाव की तैयारी, जनसंपर्क और चुनावी रणनीति पर हिंदी मार्गदर्शिका। लेखक आर. के. राजू।">
-  <meta property="og:url" content="https://rkumardiary-cmd.github.io/rk-publications/">
-  <meta property="og:image" content="https://rkumardiary-cmd.github.io/rk-publications/book-mockup.png.png">
-  <meta property="og:image:alt" content="चुनाव जीतने का महामंत्र पुस्तक का कवर">
-
-  <!-- Twitter / X -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="आर. के. पब्लिकेशन्स | चुनाव जीतने का महामंत्र">
-  <meta name="twitter:description" content="उत्तर प्रदेश पंचायत चुनाव पर हिंदी मार्गदर्शिका। लेखक आर. के. राजू।">
-  <meta name="twitter:image" content="https://rkumardiary-cmd.github.io/rk-publications/book-mockup.png.png">
-
-  <!-- प्रकाशक की जानकारी -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "आर. के. पब्लिकेशन्स",
-    "alternateName": "RK Publications",
-    "url": "https://rkumardiary-cmd.github.io/rk-publications/",
-    "description": "हिंदी पुस्तकों और डिजिटल प्रकाशन की स्वतंत्र प्रकाशन पहल।"
-  }
-  </script>
-
-  <style>
-    :root {
-      --primary: #173d32;
-      --primary-light: #28634b;
-      --accent: #ed8b32;
-      --accent-hover: #d9761e;
-      --text: #26332d;
-      --muted: #606b64;
-      --background: #f7f8f6;
-      --section: #f1f4f0;
-      --white: #ffffff;
-      --border: #e2e8e3;
-      --radius: 14px;
-      --container: 1120px;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 25px;
-    }
-
-    body {
-      font-family:
-        "Noto Sans Devanagari",
-        "Nirmala UI",
-        Mangal,
-        Arial,
-        sans-serif;
-      background: var(--background);
-      color: var(--text);
-      line-height: 1.8;
-      overflow-wrap: break-word;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    a:focus-visible {
-      outline: 3px solid var(--accent);
-      outline-offset: 4px;
-    }
-
-    .skip-link {
-      position: absolute;
-      top: -100px;
-      left: 12px;
-      z-index: 1000;
-      background: var(--white);
-      color: var(--primary);
-      padding: 10px 16px;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-
-    .skip-link:focus {
-      top: 12px;
-    }
-
-    .container {
-      width: min(100% - 40px, var(--container));
-      margin-inline: auto;
-    }
-
-    /* Header */
-
-    header {
-      background: var(--primary);
-      color: var(--white);
-      padding: 15px 0;
-    }
-
-    .header-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .brand {
-      color: var(--white);
-      font-size: 22px;
-      font-weight: 800;
-      line-height: 1.4;
-      letter-spacing: 0.3px;
-    }
-
-    .brand span {
-      display: block;
-      font-size: 13px;
-      font-weight: 400;
-      color: #dce8df;
-      letter-spacing: 0;
-    }
-
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 8px 18px;
-    }
-
-    nav a {
-      color: var(--white);
-      font-size: 14px;
-      font-weight: 500;
-      padding: 5px 0;
-    }
-
-    nav a:hover {
-      color: #f5c28d;
-    }
-
-    /* Hero */
-
-    .hero {
-      background: linear-gradient(
-        135deg,
-        var(--primary),
-        var(--primary-light)
-      );
-      color: var(--white);
-      padding: 68px 20px 72px;
-      text-align: center;
-    }
-
-    .hero-content {
-      max-width: 850px;
-      margin-inline: auto;
-    }
-
-    .hero .tag {
-      display: inline-block;
-      color: #f5c28d;
-      font-size: 14px;
-      margin-bottom: 15px;
-      letter-spacing: 0.3px;
-    }
-
-    .hero h1 {
-      font-size: clamp(29px, 4vw, 42px);
-      line-height: 1.45;
-      margin-bottom: 18px;
-      font-weight: 800;
-    }
-
-    .hero p {
-      font-size: 17px;
-      max-width: 720px;
-      margin-inline: auto;
-      color: #e6eee9;
-    }
-
-    .btn {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-      background: var(--accent);
-      color: #ffffff;
-      padding: 12px 24px;
-      border-radius: 7px;
-      font-weight: 700;
-      line-height: 1.6;
-      margin-top: 22px;
-      transition: background 0.2s ease;
-    }
-
-    .btn:hover {
-      background: var(--accent-hover);
-    }
-
-    .btn-secondary {
-      background: transparent;
-      border: 1px solid #ffffffa8;
-      color: var(--white);
-    }
-
-    .btn-secondary:hover {
-      background: #ffffff18;
-    }
-
-    /* Common Sections */
-
-    section {
-      padding: 58px 0;
-    }
-
-    .section-heading {
-      text-align: center;
-      max-width: 760px;
-      margin: 0 auto 32px;
-    }
-
-    .section-heading h2,
-    .welcome h2,
-    .about h2 {
-      color: var(--primary);
-      font-size: clamp(24px, 3vw, 30px);
-      line-height: 1.5;
-      margin-bottom: 12px;
-    }
-
-    .section-heading p {
-      color: var(--muted);
-    }
-
-    .welcome,
-    .about {
-      background: var(--white);
-      text-align: center;
-    }
-
-    .welcome-content,
-    .about-content {
-      max-width: 850px;
-      margin-inline: auto;
-    }
-
-    .welcome p,
-    .about p {
-      color: #59655e;
-      margin-bottom: 12px;
-    }
-
-    /* Book Section */
-
-    .book-section {
-      background: var(--section);
-    }
-
-    .book-card {
-      max-width: 1000px;
-      margin-inline: auto;
-      background: var(--white);
-      padding: 30px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: 0 5px 24px #0000000b;
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-      align-items: center;
-      gap: 38px;
-    }
-
-    .book-cover {
-      text-align: center;
-    }
-
-    .book-cover a {
-      display: inline-block;
-      max-width: 390px;
-    }
-
-    .book-cover img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 5px 18px #00000020;
-    }
-
-    .book-info h3 {
-      color: var(--primary);
-      font-size: clamp(24px, 3vw, 30px);
-      line-height: 1.5;
-      margin-bottom: 12px;
-    }
-
-    .book-info h3 a {
-      color: var(--primary);
-    }
-
-    .book-info h3 a:hover {
-      text-decoration: underline;
-    }
-
-    .book-info p {
-      color: var(--muted);
-      margin-bottom: 12px;
-    }
-
-    .book-label {
-      display: inline-block;
-      background: #e9f2eb;
-      color: var(--primary-light);
-      padding: 5px 12px;
-      border-radius: 20px;
-      font-size: 12px;
-      font-weight: 700;
-      margin-bottom: 12px;
-    }
-
-    .old-price {
-      color: #777777;
-      text-decoration: line-through;
-      font-size: 15px;
-    }
-
-    .price {
-      color: #a85f14;
-      font-size: 31px;
-      font-weight: 800;
-      line-height: 1.5;
-    }
-
-    .saving {
-      color: #16803c;
-      font-weight: 700;
-      font-size: 14px;
-    }
-
-    .book-format {
-      margin-top: 12px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    /* Features */
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
-      max-width: 1050px;
-      margin-inline: auto;
-    }
-
-    .feature {
-      background: var(--white);
-      padding: 24px 20px;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 2px 13px #00000008;
-    }
-
-    .feature h3 {
-      color: var(--primary-light);
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 8px;
-    }
-
-    .feature p {
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    /* Future Publications */
-
-    .future {
-      background: var(--section);
-      text-align: center;
-    }
-
-    .future-box {
-      max-width: 800px;
-      margin-inline: auto;
-      padding: 32px;
-      border: 1px dashed #9aaa9e;
-      border-radius: 12px;
-      background: var(--white);
-    }
-
-    .future-box h2 {
-      color: var(--primary);
-      margin-bottom: 10px;
-      font-size: 26px;
-    }
-
-    .future-box p {
-      color: var(--muted);
-    }
-
-    /* Contact */
-
-    .contact {
-      background: #eeeae0;
-      text-align: center;
-    }
-
-    .contact h2 {
-      color: var(--primary);
-      font-size: 27px;
-      margin-bottom: 12px;
-    }
-
-    .contact p {
-      color: #59655e;
-    }
-
-    .contact-number {
-      font-size: 20px;
-      font-weight: 700;
-      margin-top: 15px;
-    }
-
-    /* Footer */
-
-    footer {
-      background: var(--primary);
-      color: var(--white);
-      text-align: center;
-      padding: 28px 15px;
-      font-size: 14px;
-    }
-
-    footer p + p {
-      margin-top: 5px;
-      color: #dce8df;
-    }
-
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 8px 16px;
-      margin-top: 12px;
-    }
-
-    footer a {
-      color: #f5c28d;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-
-    /* Responsive Layout */
-
-    @media (max-width: 850px) {
-      .header-inner {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      nav {
-        justify-content: center;
-      }
-
-      .book-card {
-        gap: 25px;
-        padding: 24px;
-      }
-
-      .features {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (max-width: 600px) {
-      .container {
-        width: min(100% - 30px, var(--container));
-      }
-
-      header {
-        padding: 14px 0;
-      }
-
-      .brand {
-        font-size: 21px;
-      }
-
-      nav {
-        gap: 7px 15px;
-      }
-
-      nav a {
-        font-size: 13px;
-      }
-
-      .hero {
-        padding: 48px 20px 52px;
-      }
-
-      .hero h1 {
-        font-size: 28px;
-      }
-
-      .hero p {
-        font-size: 15px;
-      }
-
-      section {
-        padding: 42px 0;
-      }
-
-      .section-heading {
-        margin-bottom: 25px;
-      }
-
-      .book-card {
-        grid-template-columns: 1fr;
-        padding: 20px;
-        gap: 24px;
-      }
-
-      .book-cover a {
-        max-width: 310px;
-      }
-
-      .book-info {
-        text-align: center;
-      }
-
-      .features {
-        grid-template-columns: 1fr;
-        gap: 14px;
-      }
-
-      .feature {
-        padding: 21px 18px;
-      }
-
-      .future-box {
-        padding: 24px 18px;
-      }
-
-      .contact h2 {
-        font-size: 24px;
-      }
-
-      .footer-links {
-        gap: 8px 12px;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html {
-        scroll-behavior: auto;
-      }
-
-      *,
-      *::before,
-      *::after {
-        transition-duration: 0.01ms !important;
-        animation-duration: 0.01ms !important;
-      }
-    }
-  </style>
+
+<html lang="hi"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>आर. के. पब्लिकेशन्स | हिंदी पुस्तकें</title>
+
+<meta name="description" content="आर. के. पब्लिकेशन्स की आधिकारिक वेबसाइट। चुनाव जीतने का महामंत्र — उत्तर प्रदेश पंचायत चुनाव की तैयारी, जनसंपर्क और चुनावी रणनीति पर हिंदी मार्गदर्शिका। लेखक आर. के. राजू।"> <meta name="robots" content="index, follow"> <meta name="author" content="आर. के. पब्लिकेशन्स"> <meta name="theme-color" content="#173d32"> <meta name="google-site-verification" content="yFG7gSHWlgybDPVKo_8nunFpA3qrwTxAVKvTj5OB6hg">
+
+<link rel="canonical" href="https://rkumardiary-cmd.github.io/rk-publications/">
+
+<!-- Open Graph: Facebook, WhatsApp और अन्य सोशल मीडिया -->
+
+<meta property="og:type" content="website"> <meta property="og:site_name" content="RK Publications"> <meta property="og:locale" content="hi_IN"> <meta property="og:title" content="आर. के. पब्लिकेशन्स | चुनाव जीतने का महामंत्र"> <meta property="og:description" content="उत्तर प्रदेश पंचायत चुनाव की तैयारी, जनसंपर्क और चुनावी रणनीति पर हिंदी मार्गदर्शिका। लेखक आर. के. राजू।"> <meta property="og:url" content="https://rkumardiary-cmd.github.io/rk-publications/"> <meta property="og:image" content="https://rkumardiary-cmd.github.io/rk-publications/book-mockup.png.png"> <meta property="og:image:alt" content="चुनाव जीतने का महामंत्र पुस्तक का कवर">
+
+<!-- Twitter / X -->
+
+<meta name="twitter:card" content="summary_large_image"> <meta name="twitter:title" content="आर. के. पब्लिकेशन्स | चुनाव जीतने का महामंत्र"> <meta name="twitter:description" content="उत्तर प्रदेश पंचायत चुनाव पर हिंदी मार्गदर्शिका। लेखक आर. के. राजू।"> <meta name="twitter:image" content="https://rkumardiary-cmd.github.io/rk-publications/book-mockup.png.png">
+
+<!-- प्रकाशक की जानकारी -->
+
+<script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Organization", "name": "आर. के. पब्लिकेशन्स", "alternateName": "RK Publications", "url": "https://rkumardiary-cmd.github.io/rk-publications/", "description": "हिंदी पुस्तकों और डिजिटल प्रकाशन की स्वतंत्र प्रकाशन पहल।" } </script>
+
+<style> :root { --primary: #173d32; --primary-light: #28634b; --accent: #ed8b32; --accent-hover: #d9761e; --text: #26332d; --muted: #606b64; --background: #f7f8f6; --section: #f1f4f0; --white: #ffffff; --border: #e2e8e3; --radius: 14px; --container: 1120px; }
+
+\* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 25px; }
+
+body { font-family: "Noto Sans Devanagari", "Nirmala UI", Mangal, Arial, sans-serif; background: var(--background); color: var(--text); line-height: 1.8; overflow-wrap: break-word; }
+
+img { max-width: 100%; height: auto; }
+
+a { text-decoration: none; }
+
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+
+.skip-link { position: absolute; top: -100px; left: 12px; z-index: 1000; background: var(--white); color: var(--primary); padding: 10px 16px; border-radius: 6px; font-weight: bold; }
+
+.skip-link:focus { top: 12px; }
+
+.container { width: min(100% - 40px, var(--container)); margin-inline: auto; }
+
+/\* Header \*/
+
+header { background: var(--primary); color: var(--white); padding: 15px 0; }
+
+.header-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+
+.brand { color: var(--white); font-size: 22px; font-weight: 800; line-height: 1.4; letter-spacing: 0.3px; }
+
+.brand span { display: block; font-size: 13px; font-weight: 400; color: #dce8df; letter-spacing: 0; }
+
+nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
+
+nav a { color: var(--white); font-size: 14px; font-weight: 500; padding: 5px 0; }
+
+nav a:hover { color: #f5c28d; }
+
+/\* Hero \*/
+
+.hero { background: linear-gradient( 135deg, var(--primary), var(--primary-light) ); color: var(--white); padding: 68px 20px 72px; text-align: center; }
+
+.hero-content { max-width: 850px; margin-inline: auto; }
+
+.hero .tag { display: inline-block; color: #f5c28d; font-size: 14px; margin-bottom: 15px; letter-spacing: 0.3px; }
+
+.hero h1 { font-size: clamp(29px, 4vw, 42px); line-height: 1.45; margin-bottom: 18px; font-weight: 800; }
+
+.hero p { font-size: 17px; max-width: 720px; margin-inline: auto; color: #e6eee9; }
+
+.btn { display: inline-flex; justify-content: center; align-items: center; gap: 8px; background: var(--accent); color: #ffffff; padding: 12px 24px; border-radius: 7px; font-weight: 700; line-height: 1.6; margin-top: 22px; transition: background 0.2s ease; text-align: center; }
+
+.btn:hover { background: var(--accent-hover); }
+
+.btn-secondary { background: transparent; border: 1px solid #ffffffa8; color: var(--white); }
+
+.btn-secondary:hover { background: #ffffff18; }
+
+/\* Common Sections \*/
+
+section { padding: 58px 0; }
+
+.section-heading { text-align: center; max-width: 760px; margin: 0 auto 32px; }
+
+.section-heading h2, .welcome h2, .about h2 { color: var(--primary); font-size: clamp(24px, 3vw, 30px); line-height: 1.5; margin-bottom: 12px; }
+
+.section-heading p { color: var(--muted); }
+
+.welcome, .about { background: var(--white); text-align: center; }
+
+.welcome-content, .about-content { max-width: 850px; margin-inline: auto; }
+
+.welcome p, .about p { color: #59655e; margin-bottom: 12px; }
+
+/\* Book Section \*/
+
+.book-section { background: var(--section); }
+
+.book-card { max-width: 1000px; margin-inline: auto; background: var(--white); padding: 30px; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 5px 24px #0000000b; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 38px; }
+
+.book-cover { text-align: center; }
+
+.book-cover a { display: inline-block; max-width: 390px; }
+
+.book-cover img { display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 5px 18px #00000020; }
+
+.book-info h3 { color: var(--primary); font-size: clamp(24px, 3vw, 30px); line-height: 1.5; margin-bottom: 12px; }
+
+.book-info h3 a { color: var(--primary); }
+
+.book-info h3 a:hover { text-decoration: underline; }
+
+.book-info p { color: var(--muted); margin-bottom: 12px; }
+
+.book-label { display: inline-block; background: #e9f2eb; color: var(--primary-light); padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; margin-bottom: 12px; }
+
+.old-price { color: #777777; text-decoration: line-through; font-size: 15px; }
+
+.price { color: #a85f14; font-size: 31px; font-weight: 800; line-height: 1.5; }
+
+.saving { color: #16803c; font-weight: 700; font-size: 14px; }
+
+.book-format { margin-top: 12px; color: var(--muted); font-size: 14px; }
+
+.purchase-note { color: var(--muted); font-size: 13px; margin-top: 10px; }
+
+/\* Features \*/
+
+.features { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; max-width: 1050px; margin-inline: auto; }
+
+.feature { background: var(--white); padding: 24px 20px; border: 1px solid var(--border); border-radius: 10px; text-align: center; box-shadow: 0 2px 13px #00000008; }
+
+.feature h3 { color: var(--primary-light); font-size: 18px; line-height: 1.5; margin-bottom: 8px; }
+
+.feature p { color: var(--muted); font-size: 14px; }
+
+/\* Future Publications \*/
+
+.future { background: var(--section); text-align: center; }
+
+.future-box { max-width: 800px; margin-inline: auto; padding: 32px; border: 1px dashed #9aaa9e; border-radius: 12px; background: var(--white); }
+
+.future-box h2 { color: var(--primary); margin-bottom: 10px; font-size: 26px; }
+
+.future-box p { color: var(--muted); }
+
+/\* Contact \*/
+
+.contact { background: #eeeae0; text-align: center; }
+
+.contact h2 { color: var(--primary); font-size: 27px; margin-bottom: 12px; }
+
+.contact p { color: #59655e; }
+
+.contact-number { font-size: 20px; font-weight: 700; margin-top: 15px; }
+
+/\* Footer \*/
+
+footer { background: var(--primary); color: var(--white); text-align: center; padding: 28px 15px; font-size: 14px; }
+
+footer p + p { margin-top: 5px; color: #dce8df; }
+
+.footer-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 16px; margin-top: 12px; }
+
+footer a { color: #f5c28d; text-decoration: underline; text-underline-offset: 3px; }
+
+/\* Responsive Layout \*/
+
+@media (max-width: 850px) { .header-inner { flex-direction: column; text-align: center; }
+
+nav { justify-content: center; }
+
+.book-card { gap: 25px; padding: 24px; }
+
+.features { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+@media (max-width: 600px) { .container { width: min(100% - 30px, var(--container)); }
+
+header { padding: 14px 0; }
+
+.brand { font-size: 21px; }
+
+nav { gap: 7px 15px; }
+
+nav a { font-size: 13px; }
+
+.hero { padding: 48px 20px 52px; }
+
+.hero h1 { font-size: 28px; }
+
+.hero p { font-size: 15px; }
+
+section { padding: 42px 0; }
+
+.section-heading { margin-bottom: 25px; }
+
+.book-card { grid-template-columns: 1fr; padding: 20px; gap: 24px; }
+
+.book-cover a { max-width: 310px; }
+
+.book-info { text-align: center; }
+
+.features { grid-template-columns: 1fr; gap: 14px; }
+
+.feature { padding: 21px 18px; }
+
+.future-box { padding: 24px 18px; }
+
+.contact h2 { font-size: 24px; }
+
+.footer-links { gap: 8px 12px; } }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; }
+
+\*, \*::before, \*::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } } </style>
+
 </head>
 
 <body>
 
 <a class="skip-link" href="#main-content">मुख्य सामग्री पर जाएँ</a>
 
-<header>
-  <div class="container header-inner">
+<header> <div class="container header-inner">
 
-    <a class="brand" href="./" aria-label="आर. के. पब्लिकेशन्स होमपेज">
-      RK PUBLICATIONS
-      <span>आर. के. पब्लिकेशन्स</span>
-    </a>
+<a class="brand" href="./" aria-label="आर. के. पब्लिकेशन्स होमपेज"> RK PUBLICATIONS <span>आर. के. पब्लिकेशन्स</span> </a>
 
-    <nav aria-label="मुख्य नेविगेशन">
-      <a href="#home">होम</a>
-      <a href="#books">हमारी पुस्तकें</a>
-      <a href="#about">परिचय</a>
-      <a href="#future">नया प्रकाशन</a>
-      <a href="#contact">संपर्क</a>
-    </nav>
+<nav aria-label="मुख्य नेविगेशन"> <a href="#home">होम</a> <a href="#books">हमारी पुस्तकें</a> <a href="#about">परिचय</a> <a href="#future">नया प्रकाशन</a> <a href="#contact">संपर्क</a> </nav>
 
-  </div>
-</header>
+</div> </header>
 
 <main id="main-content">
 
-  <!-- मुख्य परिचय -->
+<!-- मुख्य परिचय -->
 
-  <section class="hero" id="home">
-    <div class="hero-content">
+<section class="hero" id="home"> <div class="hero-content">
 
-      <div class="tag">स्वतंत्र हिंदी प्रकाशन पहल</div>
+<div class="tag">स्वतंत्र हिंदी प्रकाशन पहल</div>
 
-      <h1>आर. के. पब्लिकेशन्स में आपका स्वागत है</h1>
+<h1>आर. के. पब्लिकेशन्स में आपका स्वागत है</h1>
 
-      <p>
-        हिंदी पुस्तकों और उपयोगी ज्ञानवर्धक सामग्री को
-        पाठकों तक पहुँचाने का हमारा प्रयास।
-      </p>
+<p> हिंदी पुस्तकों और उपयोगी ज्ञानवर्धक सामग्री को पाठकों तक पहुँचाने का हमारा प्रयास। </p>
 
-      <a class="btn" href="#books">
-        हमारी पुस्तकें देखें
-      </a>
+<a class="btn" href="#books"> हमारी पुस्तकें देखें </a>
 
-    </div>
-  </section>
+</div>
 
-  <!-- प्रकाशन का परिचय -->
+</section>
 
-  <section class="welcome">
-    <div class="container welcome-content">
+<!-- प्रकाशन का परिचय -->
 
-      <h2>पुस्तकों और ज्ञान का एक डिजिटल मंच</h2>
+<section class="welcome"> <div class="container welcome-content">
 
-      <p>
-        आर. के. पब्लिकेशन्स एक स्वतंत्र प्रकाशन पहल है।
-        हमारा उद्देश्य विभिन्न विषयों पर उपयोगी पुस्तकों और
-        ज्ञानवर्धक सामग्री को डिजिटल माध्यम से पाठकों तक पहुँचाना है।
-        इस वेबसाइट पर हमारे वर्तमान और भविष्य के प्रकाशनों की
-        जानकारी उपलब्ध होगी।
-      </p>
+<h2>पुस्तकों और ज्ञान का एक डिजिटल मंच</h2>
 
-    </div>
-  </section>
+<p> आर. के. पब्लिकेशन्स एक स्वतंत्र प्रकाशन पहल है। हमारा उद्देश्य विभिन्न विषयों पर उपयोगी पुस्तकों और ज्ञानवर्धक सामग्री को डिजिटल माध्यम से पाठकों तक पहुँचाना है। इस वेबसाइट पर हमारे वर्तमान और भविष्य के प्रकाशनों की जानकारी उपलब्ध होगी। </p>
 
-  <!-- उपलब्ध पुस्तक -->
+</div>
 
-  <section class="book-section" id="books">
+</section>
 
-    <div class="container">
+<!-- उपलब्ध पुस्तक -->
 
-      <div class="section-heading">
-        <h2>हमारी पुस्तकें</h2>
-        <p>
-          आर. के. पब्लिकेशन्स के उपलब्ध प्रकाशनों की जानकारी।
-        </p>
-      </div>
+<section class="book-section" id="books">
 
-      <div class="book-card">
+<div class="container">
 
-        <div class="book-cover">
-          <a
-            href="chunav-jeetne-ka-mahamantra.html"
-            aria-label="चुनाव जीतने का महामंत्र पुस्तक का विवरण देखें">
+<div class="section-heading"> <h2>हमारी पुस्तकें</h2> <p> आर. के. पब्लिकेशन्स के उपलब्ध प्रकाशनों की जानकारी। </p> </div>
 
-            <img
-              src="book-mockup.png.png"
-              alt="चुनाव जीतने का महामंत्र — लेखक आर. के. राजू"
-              loading="lazy"
-              width="600"
-              height="800">
+<div class="book-card">
 
-          </a>
-        </div>
+<div class="book-cover"> <a href="chunav-jeetne-ka-mahamantra.html" aria-label="चुनाव जीतने का महामंत्र पुस्तक का विवरण देखें">
 
-        <div class="book-info">
+<img src="book-mockup.png.png" alt="चुनाव जीतने का महामंत्र — लेखक आर. के. राजू" loading="lazy" width="600" height="800">
 
-          <span class="book-label">प्रमुख प्रकाशन</span>
+</a> </div>
 
-          <h3>
-            <a href="chunav-jeetne-ka-mahamantra.html">
-              चुनाव जीतने का महामंत्र
-            </a>
-          </h3>
+<div class="book-info">
 
-          <p>लेखक: आर. के. राजू</p>
+<span class="book-label">प्रमुख प्रकाशन</span>
 
-          <p>
-            पंचायत चुनाव की तैयारी, जनसंपर्क, नेतृत्व और
-            चुनावी रणनीति को समझने वाली हिंदी मार्गदर्शिका।
-          </p>
+<h3> <a href="chunav-jeetne-ka-mahamantra.html"> चुनाव जीतने का महामंत्र </a> </h3>
 
-          <p>
-            उत्तर प्रदेश के पंचायत चुनाव और स्थानीय नेतृत्व
-            को ध्यान में रखकर तैयार पुस्तक।
-          </p>
+<p>लेखक: आर. के. राजू</p>
 
-          <div class="old-price">मूल्य: ₹199</div>
+<p> पंचायत चुनाव की तैयारी, जनसंपर्क, नेतृत्व और चुनावी रणनीति को समझने वाली हिंदी मार्गदर्शिका। </p>
 
-          <div class="price">₹149</div>
+<p> उत्तर प्रदेश के पंचायत चुनाव और स्थानीय नेतृत्व को ध्यान में रखकर तैयार पुस्तक। </p>
 
-          <div class="saving">
-            आपकी बचत: ₹50 (25.13% छूट)
-          </div>
+<div class="old-price">मूल्य: ₹199</div>
 
-          <p class="book-format">
-            डिजिटल संस्करण (PDF)
-          </p>
-
-          <a
-            class="btn"
-            href="chunav-jeetne-ka-mahamantra.html">
-            पुस्तक का पूरा विवरण देखें
-          </a>
+<div class="price">₹149</div>
 
-        </div>
-
-      </div>
-
-    </div>
-  </section>
+<div class="saving"> आपकी बचत: ₹50 (25.13% छूट) </div>
 
-  <!-- पुस्तक की विषयगत विशेषताएँ -->
-
-  <section>
-    <div class="container">
+<p class="book-format"> डिजिटल संस्करण (PDF) </p>
 
-      <div class="section-heading">
-        <h2>पुस्तक की प्रमुख विशेषताएँ</h2>
-        <p>
-          चुनावी तैयारी और पंचायत चुनाव से जुड़े विषयों का परिचय।
-        </p>
-      </div>
+<a class="btn" href="https://rk-publications.slaby.in/p/item-2" target="_blank" rel="noopener noreferrer"> अभी खरीदें — ₹149 </a>
 
-      <div class="features">
+<p class="purchase-note"> भुगतान और पीडीएफ डाउनलोड स्लैबी के माध्यम से। </p>
 
-        <div class="feature">
-          <h3>चुनावी तैयारी</h3>
-          <p>
-            चुनाव लड़ने से पहले की तैयारी और योजना की समझ।
-          </p>
-        </div>
+<a class="btn btn-secondary" href="chunav-jeetne-ka-mahamantra.html"> पुस्तक का पूरा विवरण देखें </a>
 
-        <div class="feature">
-          <h3>जनसंपर्क</h3>
-          <p>
-            जनता से संवाद और जनविश्वास बनाने की जानकारी।
-          </p>
-        </div>
+</div>
 
-        <div class="feature">
-          <h3>चुनावी रणनीति</h3>
-          <p>
-            क्षेत्रीय विश्लेषण, टीम और संसाधन प्रबंधन की जानकारी।
-          </p>
-        </div>
+</div>
 
-        <div class="feature">
-          <h3>पंचायत चुनाव की बुनियादी समझ</h3>
-          <p>
-            पंचायत चुनाव की व्यवस्था और उसकी बुनियादी जानकारी।
-          </p>
-        </div>
+</div>
 
-        <div class="feature">
-          <h3>ग्राम सभा और ग्रामीण जनता से संवाद</h3>
-          <p>
-            ग्राम सभा की भूमिका और ग्रामीण जनता से संवाद की जानकारी।
-          </p>
-        </div>
+</section>
 
-        <div class="feature">
-          <h3>प्रतिस्पर्धा और चुनौतियाँ</h3>
-          <p>
-            चुनाव में प्रतिस्पर्धा और सामने आने वाली चुनौतियों की समझ।
-          </p>
-        </div>
+<!-- पुस्तक की विषयगत विशेषताएँ -->
 
-      </div>
+<section> <div class="container">
 
-    </div>
-  </section>
+<div class="section-heading"> <h2>पुस्तक की प्रमुख विशेषताएँ</h2> <p> चुनावी तैयारी और पंचायत चुनाव से जुड़े विषयों का परिचय। </p> </div>
 
-  <!-- प्रकाशक का परिचय -->
+<div class="features">
 
-  <section class="about" id="about">
-    <div class="container about-content">
+<div class="feature"> <h3>चुनावी तैयारी</h3> <p> चुनाव लड़ने से पहले की तैयारी और योजना की समझ। </p> </div>
 
-      <h2>आर. के. पब्लिकेशन्स के बारे में</h2>
+<div class="feature"> <h3>जनसंपर्क</h3> <p> जनता से संवाद और जनविश्वास बनाने की जानकारी। </p> </div>
 
-      <p>
-        आर. के. पब्लिकेशन्स एक स्वतंत्र प्रकाशन पहल है।
-        हम पुस्तकों और ज्ञानवर्धक सामग्री के डिजिटल प्रकाशन
-        तथा पाठकों तक उनकी पहुँच बनाने के उद्देश्य से कार्य कर रहे हैं।
-      </p>
+<div class="feature"> <h3>चुनावी रणनीति</h3> <p> क्षेत्रीय विश्लेषण, टीम और संसाधन प्रबंधन की जानकारी। </p> </div>
 
-      <p>
-        हमारा प्रयास है कि पाठकों को विभिन्न विषयों पर
-        उपयोगी और व्यवस्थित सामग्री एक ही प्रकाशन मंच पर मिले।
-      </p>
+<div class="feature"> <h3>पंचायत चुनाव की बुनियादी समझ</h3> <p> पंचायत चुनाव की व्यवस्था और उसकी बुनियादी जानकारी। </p> </div>
 
-    </div>
-  </section>
+<div class="feature"> <h3>ग्राम सभा और ग्रामीण जनता से संवाद</h3> <p> ग्राम सभा की भूमिका और ग्रामीण जनता से संवाद की जानकारी। </p> </div>
 
-  <!-- भविष्य के प्रकाशन -->
+<div class="feature"> <h3>प्रतिस्पर्धा और चुनौतियाँ</h3> <p> चुनाव में प्रतिस्पर्धा और सामने आने वाली चुनौतियों की समझ। </p> </div>
 
-  <section class="future" id="future">
-    <div class="container">
+</div>
 
-      <div class="future-box">
+</div>
 
-        <h2>आने वाले प्रकाशन</h2>
+</section>
 
-        <p>
-          आर. के. पब्लिकेशन्स के अंतर्गत भविष्य में अन्य विषयों
-          पर भी पुस्तकें प्रकाशित की जाएँगी। नई पुस्तकों की
-          जानकारी इसी वेबसाइट पर जोड़ी जाएगी।
-        </p>
+<!-- प्रकाशक का परिचय -->
 
-      </div>
+<section class="about" id="about"> <div class="container about-content">
 
-    </div>
-  </section>
+<h2>आर. के. पब्लिकेशन्स के बारे में</h2>
 
-  <!-- संपर्क -->
+<p> आर. के. पब्लिकेशन्स एक स्वतंत्र प्रकाशन पहल है। हम पुस्तकों और ज्ञानवर्धक सामग्री के डिजिटल प्रकाशन तथा पाठकों तक उनकी पहुँच बनाने के उद्देश्य से कार्य कर रहे हैं। </p>
 
-  <section class="contact" id="contact">
-    <div class="container">
+<p> हमारा प्रयास है कि पाठकों को विभिन्न विषयों पर उपयोगी और व्यवस्थित सामग्री एक ही प्रकाशन मंच पर मिले। </p>
 
-      <h2>संपर्क एवं पुस्तक संबंधी सहायता</h2>
+</div>
 
-      <p>
-        पुस्तक खरीदने, भुगतान एवं किसी भी प्रकार की सहायता
-        के लिए WhatsApp पर संपर्क करें।
-      </p>
+</section>
 
-      <p class="contact-number">
-        WhatsApp: 7392009310
-      </p>
+<!-- भविष्य के प्रकाशन -->
 
-      <a
-        class="btn"
-        href="https://wa.me/917392009310?text=नमस्ते%2C%20मुझे%20चुनाव%20जीतने%20का%20महामंत्र%20पुस्तक%20के%20बारे%20में%20जानकारी%20चाहिए।"
-        target="_blank"
-        rel="noopener noreferrer">
+<section class="future" id="future"> <div class="container">
 
-        WhatsApp पर संपर्क करें
-      </a>
+<div class="future-box">
 
-      <p style="margin-top:15px;">
-        आर. के. पब्लिकेशन्स
-      </p>
+<h2>आने वाले प्रकाशन</h2>
 
-    </div>
-  </section>
+<p> आर. के. पब्लिकेशन्स के अंतर्गत भविष्य में अन्य विषयों पर भी पुस्तकें प्रकाशित की जाएँगी। नई पुस्तकों की जानकारी इसी वेबसाइट पर जोड़ी जाएगी। </p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- सहायता और संपर्क -->
+
+<section class="contact" id="contact"> <div class="container">
+
+<h2>संपर्क एवं पुस्तक संबंधी सहायता</h2>
+
+<p> भुगतान, पीडीएफ डाउनलोड, शिकायत या किसी भी प्रकार की सहायता के लिए WhatsApp पर संपर्क करें। </p>
+
+<p class="contact-number"> WhatsApp: 7392009310 </p>
+
+<a class="btn" href="https://wa.me/917392009310?text=नमस्ते%2C%20मुझे%20चुनाव%20जीतने%20का%20महामंत्र%20पुस्तक%20के%20संबंध%20में%20सहायता%20चाहिए।" target="_blank" rel="noopener noreferrer">
+
+WhatsApp पर सहायता लें </a>
+
+<p style="margin-top:15px;"> आर. के. पब्लिकेशन्स </p>
+
+</div>
+
+</section>
 
 </main>
 
 <!-- Footer -->
 
-<footer>
-  <p>© 2026 आर. के. पब्लिकेशन्स। सर्वाधिकार सुरक्षित।</p>
+<footer> <p>© 2026 आर. के. पब्लिकेशन्स। सर्वाधिकार सुरक्षित।</p>
 
-  <p>RK Publications | आधिकारिक वेबसाइट</p>
+<p>RK Publications | आधिकारिक वेबसाइट</p>
 
-  <p>
-    प्रमुख पुस्तक: चुनाव जीतने का महामंत्र |
-    लेखक: आर. के. राजू
-  </p>
+<p> प्रमुख पुस्तक: चुनाव जीतने का महामंत्र | लेखक: आर. के. राजू </p>
 
-  <div class="footer-links">
-    <a href="about.html">हमारे बारे में</a>
-    <a href="contact.html">संपर्क</a>
-    <a href="privacy.html">गोपनीयता नीति</a>
-    <a href="terms.html">नियम एवं शर्तें</a>
-  </div>
-</footer>
+<div class="footer-links"> <a href="about.html">हमारे बारे में</a> <a href="contact.html">संपर्क</a> <a href="privacy.html">गोपनीयता नीति</a> <a href="terms.html">नियम एवं शर्तें</a> </div> </footer>
 
 </body>
 </html>
